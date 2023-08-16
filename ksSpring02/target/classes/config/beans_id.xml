@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 第一种根据index参数下标设置 -->
+    <bean id="userTByConstructIndex" class="com.kuang.pojo.UserT">
+        <!-- index指构造方法 , 下标从0开始 -->
+        <constructor-arg index="0" value="ByConstruct -- kuangshenIndex"/>
+    </bean>
+    <!-- 第二种根据参数名字设置 -->
+    <bean id="userTByConstructParam" class="com.kuang.pojo.UserT">
+        <!-- name指参数名 -->
+        <constructor-arg name="name" value="ByConstruct -- kuangshenParam"/>
+    </bean>
+    <!-- 第三种根据参数类型设置 -->
+    <bean id="userTByType" class="com.kuang.pojo.UserT">
+        <constructor-arg type="java.lang.String" value="ByConstruct -- kuangshenType"/>
+    </bean>
+
+</beans>
