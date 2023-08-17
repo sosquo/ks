@@ -3,9 +3,11 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <alias name="hi" alias="userNew"/>
+
     <!--设置别名：在获取Bean的时候可以使用别名获取-->
     <bean id="hi"  class="com.kuang.pojo.UserT">
         <property name="name" value="Alias_Summer"/>
     </bean>
-    <alias name="hi" alias="userNew"/>
+
 </beans>

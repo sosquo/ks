@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="sy1" class="com.kuang.pojo.User" p:name="艾米莉亚" p:age="18" scope="singleton"/>
+<!--    <bean id="sy2" class="com.kuang.pojo.User" p:name="艾米莉亚" p:age="18" singleton="false"/>-->
+    <bean id="sy3" class="com.kuang.pojo.User" p:name="艾米莉亚" p:age="18" scope="prototype"/>
+    <bean id="sy4" class="com.kuang.pojo.User" p:name="艾米莉亚" p:age="18" scope="request"/>
+    <bean id="sy5" class="com.kuang.pojo.User" p:name="艾米莉亚" p:age="18" scope="session"/>
+</beans>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--  导入约束 : xmlns:p="http://www.springframework.org/schema/p"
+    P(属性: properties)命名空间 , 属性依然要设置set方法-->
+    <bean id="user" class="com.kuang.pojo.User" p:name="艾米莉亚" p:age="18"/>
+
+    <!-- 导入约束 : xmlns:c="http://www.springframework.org/schema/c"
+    C(构造: Constructor)命名空间 , 属性依然要设置set方法-->
+    <bean id="user1" class="com.kuang.pojo.User" c:name="汉库克" c:age="24"/>
+    <bean id="user2" class="com.kuang.pojo.User" c:name="高瑶"/>
+
+</beans>
