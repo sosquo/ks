@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--    开启属性注解支持！ -->
+    <context:annotation-config/>
+
+    <bean id="teacher" class="com.kuang.pojo.Teacher"/>
+
+    <bean id="stu" class="com.kuang.pojo.Student" p:name="朱竹青"/>
+    <!--<bean name="stu" class="com.kuang.pojo.Student" p:name="貂蝉"/>-->
+        <bean id="ssr1" class="com.kuang.pojo.Student" p:name="比比东"/>
+<!--    <bean id="ssr2" class="com.kuang.pojo.Student" p:name="小舞"/>-->
+    <bean id="stu4" class="com.kuang.pojo.Student" p:name="百灵"/>
+
+</beans>
