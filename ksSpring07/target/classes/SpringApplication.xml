@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--    aop 方式一 -->
+    <!-- 注册 bean -->
+    <bean id="firstUserService" class="com.kuang.impl.FirstUserServiceImpl"/>
+    <bean id="firstLog" class="com.kuang.log.FirstLog"/>
+    <bean id="firstAfterLog" class="com.kuang.log.FirstAfterLog"/>
+    <!-- aop的配置 -->
+    <aop:config>
+        <aop:pointcut id="pointcut" expression="execution (* com.kuang.impl.FirstUserServiceImpl.*(..))"/>
+        <aop:pointcut id="pointcut1" expression="execution (* com.kuang.impl.FirstUserServiceImpl.delete(..))"/>
+        <aop:advisor advice-ref="firstLog" pointcut-ref="pointcut"/>
+        <aop:advisor advice-ref="firstAfterLog" pointcut-ref="pointcut1"/>
+    </aop:config>
+
+    <!--    aop方式二 -->
+    <bean id="secondUserService" class="com.kuang.impl.SecondUserServiceImpl"/>
+    <bean id="secondDiy" class="com.kuang.log.SecondDiyAdvice"/>
+    <aop:config>
+        <!--    第二种方式：使用aop的标签实现-->
+        <aop:aspect ref="secondDiy">
+            <aop:pointcut id="secondPointcut" expression="execution(* com.kuang.impl.SecondUserServiceImpl.*(..))"/>
+            <aop:before method="myBefore" pointcut-ref="secondPointcut"></aop:before>
+            <aop:after method="myAfter" pointcut-ref="secondPointcut"></aop:after>
+        </aop:aspect>
+    </aop:config>
+
+    <!--aop方式三: 注解实现-->
+    <bean id="thirdUserService" class="com.kuang.impl.ThirdUserServiceImpl"/>
+    <bean id="annotationPointcut" class="com.kuang.log.ThirdLogAspect"/>
+    <aop:aspectj-autoproxy/>
+</beans>
