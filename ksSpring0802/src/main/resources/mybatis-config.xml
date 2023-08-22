@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <!--        如果在 com.kuang.pojo 包下有一个名为 User 的 Java 类，
+        那么在映射文件中可以直接使用类名 "User" 来引用该类，
+        而不需要写全限定名 "com.kuang.pojo.User"-->
+        <package name="com.kuang.pojo"/>
+    </typeAliases>
+</configuration>
