@@ -5,25 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="476b7054-62d6-4a38-b062-68e7a2ae0d44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ksSpring08/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ksSpring08/src/main/java/com/kuang/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ksSpring08/src/main/java/com/kuang/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ksSpring08/src/main/java/com/kuang/dao/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ksSpring08/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ksSpring08/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/dao/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ksSpring08/.idea/ksSpring08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ksSpring08/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ksSpring0802/.idea/ksSpring0802.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ksSpring0802/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ksSpring0802/src/main/java/com/kuang/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ksSpring08/src/main/java/com/kuang/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ksSpring08/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ksSpring08/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ksSpring08/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ksSpring0802/src/main/java/com/kuang/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ksSpring0802/src/main/java/com/kuang/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ksSpring0802/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ksSpring0802/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ksSpring0802/src/main/resources/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +62,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/project/ks/ksSpring0801/src/main/java/com/kuang",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "last_opened_file_path": "F:/project/ks/ksSpring08",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.35632184",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "e9295722c794fc4e5414602b0acd6f57"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -111,6 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692693722892</updated>
       <workItem from="1692693724244" duration="2036000" />
+      <workItem from="1692758089658" duration="509000" />
     </task>
     <servers />
   </component>
