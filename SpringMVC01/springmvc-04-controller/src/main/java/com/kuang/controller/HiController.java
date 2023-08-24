@@ -6,15 +6,12 @@ import org.springframework.web.servlet.mvc.Controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-//这里我们先导入controller接口
-public class HelloController implements Controller {
-
+public class HiController implements Controller {
     @Override
     public ModelAndView handleRequest(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("msg", "HelloSpringMVC02!");
-//        封装要跳转的视图，放在ModelAndView中
-        modelAndView.setViewName("hello"); //WEB-INF/jsp/hello.jsp
+        modelAndView.addObject("msg", "Hi <h2>Spring04 with org.springframework.web.servlet.mvc.Controller!</h2>");
+        modelAndView.setViewName("hello");
         return modelAndView;
     }
 }
