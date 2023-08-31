@@ -9,6 +9,7 @@
         <module name="need-viewresolver" />
         <module name="test-model-sy" />
         <module name="no-viewresolver" />
+        <module name="data-hadler" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

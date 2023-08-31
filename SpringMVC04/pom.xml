@@ -12,6 +12,7 @@
         <module>need-viewresolver</module>
         <module>no-viewresolver</module>
         <module>test-model-sy</module>
+        <module>data-hadler</module>
     </modules>
 
     <properties>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="test-model" />
+      <artifact name="data-hadler:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,41 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3a3fdb5-d7fc-4e1d-aa23-b0aec431efb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/need_modelandview_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/no_viewresolver.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/test_model.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/need-viewresolver/need-viewresolver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/need-viewresolver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/need-viewresolver/src/main/java/com/kuang/controller/ResultGoBySpringMVC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/need-viewresolver/src/main/java/com/kuang/origin/controller/ControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/need-viewresolver/src/main/resources/springmvc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/need-viewresolver/web/WEB-INF/jsp/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/need-viewresolver/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/need-viewresolver/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/no-viewresolver/no-viewresolver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/no-viewresolver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/no-viewresolver/src/main/java/com/kuang/controller/ResultGoByServletApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/no-viewresolver/src/main/java/com/kuang/controller/ResultGoBySpringMVC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/no-viewresolver/src/main/resources/springmvc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/no-viewresolver/web/WEB-INF/jsp/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/no-viewresolver/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/no-viewresolver/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuang/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-model-super/test-model-sy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-model-sy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-model-sy/src/main/java/com/kuang/controller/ResultGoBySpringMVC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-model-sy/src/main/resources/springmvc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-model-sy/test-model-mini.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-model-sy/web/WEB-INF/jsp/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-model-sy/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-model-sy/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/data_hadler_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-hadler/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-hadler/src/main/java/com/kuang/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-hadler/src/main/java/com/kuang/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-hadler/src/main/resources/springmvc-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-hadler/web/WEB-INF/jsp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-hadler/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/need-viewresolver/need-viewresolver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data-hadler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no-viewresolver/no-viewresolver.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,21 +76,22 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "F:/project/ks/SpringMVC04/test-model-sy/web",
-    "project.structure.last.edited": "Facets",
+    "last_opened_file_path": "F:/project/ks/SpringMVC04/data-hadler/src/main/resources",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.35632184",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "Console",
     "spring.configuration.checksum": "87a829bc656944dbe83ce80781ed31aa"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\ks\SpringMVC04\data-hadler\src\main\resources" />
       <recent name="F:\project\ks\SpringMVC04" />
       <recent name="F:\project\ks\SpringMVC04\springmvc04-modelandview-by-need-viewresolver\src\main\java\com\kuang\controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.t_test">
+  <component name="RunManager" selected="Tomcat Server.t_data">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="no-viewresolver" />
       <method v="2">
@@ -124,6 +103,97 @@
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="t_data" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.92" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/hello5?name=das&amp;uid=123" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=utf8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="data-hadler:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f166fbea-ba12-42b1-aba9-4a6b6fabd710" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60165" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="data-hadler:war exploded" />
+        </option>
       </method>
     </configuration>
     <configuration name="t_need" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.92" ALTERNATIVE_JRE_ENABLED="false">
@@ -397,6 +467,7 @@
       <item itemvalue="Tomcat Server.t_need" />
       <item itemvalue="Tomcat Server.t_test" />
       <item itemvalue="Tomcat Server.t_no" />
+      <item itemvalue="Tomcat Server.t_data" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -412,10 +483,33 @@
       <workItem from="1692952618483" duration="1553000" />
       <workItem from="1692954189425" duration="1197000" />
       <workItem from="1692955410104" duration="723000" />
+      <workItem from="1693449863616" duration="9663000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-hadler/src/main/java/com/kuang/controller/HelloController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
