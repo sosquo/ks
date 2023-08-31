@@ -9,21 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a3fdb5-d7fc-4e1d-aa23-b0aec431efb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/data_hadler_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-hadler/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-hadler/src/main/java/com/kuang/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-hadler/src/main/java/com/kuang/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-hadler/src/main/resources/springmvc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-hadler/web/WEB-INF/jsp/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-hadler/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/need-viewresolver/need-viewresolver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data-hadler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/no-viewresolver/no-viewresolver.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d3a3fdb5-d7fc-4e1d-aa23-b0aec431efb4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +62,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "F:/project/ks/SpringMVC04/data-hadler/src/main/resources",
+    "last_opened_file_path": "F:/project/ks/SpringMVC04/data-hadler/src/main/java/com/kuang/filer",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.35632184",
@@ -86,6 +72,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\ks\SpringMVC04\data-hadler\src\main\java\com\kuang\filer" />
       <recent name="F:\project\ks\SpringMVC04\data-hadler\src\main\resources" />
       <recent name="F:\project\ks\SpringMVC04" />
       <recent name="F:\project\ks\SpringMVC04\springmvc04-modelandview-by-need-viewresolver\src\main\java\com\kuang\controller" />
@@ -483,7 +470,7 @@
       <workItem from="1692952618483" duration="1553000" />
       <workItem from="1692954189425" duration="1197000" />
       <workItem from="1692955410104" duration="723000" />
-      <workItem from="1693449863616" duration="9663000" />
+      <workItem from="1693449863616" duration="11370000" />
     </task>
     <servers />
   </component>
@@ -500,16 +487,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/data-hadler/src/main/java/com/kuang/controller/HelloController.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
