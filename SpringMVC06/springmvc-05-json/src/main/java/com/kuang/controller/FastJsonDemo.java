@@ -38,4 +38,5 @@ public class FastJsonDemo {
         User to_java_user = JSON.toJavaObject(jsonObject1, User.class);
         System.out.println("JSON.toJavaObject(jsonObject1, User.class)==>"+to_java_user);
     }
+
 }

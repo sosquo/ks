@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springmvc-05-json" />
+        <module name="springmvc-06-ajax" />
       </profile>
     </annotationProcessing>
   </component>

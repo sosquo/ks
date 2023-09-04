@@ -5,9 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.kuang.pojo.User;
 import com.kuang.utils.JsonUtils;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.text.SimpleDateFormat;
@@ -22,6 +20,7 @@ public class UserController {
      * 返回的json乱码解决
      * 1、方案： produces = "application/json;charset=utf-8"
      * 2、在springmvc的配置文件上添加一段消息StringHttpMessageConverter转换配置
+     *
      * @return
      * @throws JsonProcessingException
      */
@@ -29,13 +28,14 @@ public class UserController {
 //    @ResponseBody
     public String json0() throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
-        User user = new User("小明",3, "男");
+        User user = new User("小明", 3, "男");
         String str = objectMapper.writeValueAsString(user);
         return str;
     }
 
     /**
      * 返回的json乱码解决方案： produces = "application/json;charset=utf-8"
+     *
      * @return
      * @throws JsonProcessingException
      */
@@ -43,7 +43,7 @@ public class UserController {
 //    @ResponseBody
     public String json1() throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
-        User user = new User("小明",3, "男");
+        User user = new User("小明", 3, "男");
         String str = objectMapper.writeValueAsString(user);
         return str;
     }
@@ -71,38 +71,37 @@ public class UserController {
 
     @RequestMapping("/json3")
     public String json3() throws JsonProcessingException {
-
         ObjectMapper mapper = new ObjectMapper();
-
-        //创建时间一个对象，java.util.Date
         Date date = new Date();
-        //将我们的对象解析成为json格式
-        String str = mapper.writeValueAsString(date);
-        return str;
+        return mapper.writeValueAsString(date);
+    }
+
+    @RequestMapping("/json4_0")
+    public String json4_0() throws JsonProcessingException {
+        ObjectMapper mapper = new ObjectMapper();
+        Date date = new Date();
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String result = format.format(date);
+        return mapper.writeValueAsString(result);
     }
 
     @RequestMapping("/json4")
     public String json4() throws JsonProcessingException {
-
         ObjectMapper mapper = new ObjectMapper();
-
         //不使用时间戳的方式
         mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
-        //自定义日期格式对象
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        //指定日期格式
-        mapper.setDateFormat(sdf);
-
         Date date = new Date();
-        String str = mapper.writeValueAsString(date);
-
-        return str;
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        /*String result = format.format(date);
+        return  mapper.writeValueAsString(result);*/
+        mapper.setDateFormat(format);
+        return mapper.writeValueAsString(date);
     }
 
     @RequestMapping("/json5")
-    public String json5() throws JsonProcessingException {
+    public String json5() {
         Date date = new Date();
-        String json = JsonUtils.getJson(date);
-        return json;
+        return JsonUtils.getJson(date);
     }
+
 }

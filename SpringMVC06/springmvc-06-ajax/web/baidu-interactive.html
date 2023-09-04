@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度交互</title>
+</head>
+<style>
+    #q {
+        width: 500px;
+        height: 30px;
+        border: 1px solid #ddd;
+        line-height: 30px;
+        display: block;
+        margin: 0 auto;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    #ul {
+        width: 520px;
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        border: 1px solid #ddd;
+        margin-top: -1px;
+        display: none;
+    }
+
+    #ul li {
+        line-height: 30px;
+        padding: 0 10px;
+    }
+
+    #ul li:hover {
+        background-color: #f60;
+        color: #fff;
+    }
+</style>
+<body>
+<div>
+    <input type="text" id="q">
+    <ul id="ul"/>
+</div>
+</body>
+<script>
+    function demo(data) {
+        var UI = document.getElementById('ul');
+        var html = "";
+        if (data.s.length) {
+            UI.style.display = 'block';
+            for (let i = 0; i < data.s.length; i++) {
+                html += "<li>" + data.s[i] + "</li>";
+            }
+            UI.innerHTML = html;
+        }
+    }
+
+    window.onload = function () {
+        let Q = document.getElementById("q");
+        Q.onkeyup = function () {
+            if (this.value != "") {
+                var str = document.createElement('script');
+                // str.src = "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=" + this.value+ "&fenlei=256&oq=" + this.value+ "&rsv_pq=a0810e230000b4a5&rsv_t=0d7avHqYQRreKxHrHOrgq5OFqf07GqPqOjh4uScOSK69tOjoCgJ22i68RuU&rqlang=cn&rsv_dl=tb&rsv_enter=1&rsv_btype=t&inputT=1&rsv_sug3=5&rsv_sug1=3&rsv_sug7=100&rsv_sug2=0&rsv_sug4=681&cb=demo";
+                str.src = 'https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd='+this.value+'&cb=demo';
+                document.body.appendChild(str);
+            }
+        };
+    };
+
+</script>
+</html>
