@@ -1,0 +1,17 @@
+stu2:
+  name: 可云{random.int}号
+  age: 20
+  friendsList: 小明,小东
+  friendsListPlus:
+    - 小明yml
+    - 小东yml
+#    yml 支持复杂类型封装，yml中可以封装对象，使用$Value不行
+#    yml 支持松散绑定 t-name 等同 tName
+  mathTeacher: {t-name: 老皇帝, tAge: 1, loves: you}
+  hobbies: {first: pinpgong,second: basketball,third: baseball}
+  isWork: true
+  birthday: 2020/01/01
+  colleaguesSet:
+    - 张三
+    - 李四
+    - 王五
