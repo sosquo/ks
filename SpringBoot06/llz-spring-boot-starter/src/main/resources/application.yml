@@ -1,0 +1,6 @@
+server:
+  port: 8081
+llz:
+  hello:
+    prefix: 你好啊
+    suffix: 欢迎光临！

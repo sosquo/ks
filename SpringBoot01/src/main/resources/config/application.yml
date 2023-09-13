@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /llz
+    encoding:
+      force-response: true
+debug: true
+spring:
+  http:
+    encoding:
+      force-response: true

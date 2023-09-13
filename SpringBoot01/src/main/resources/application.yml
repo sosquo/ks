@@ -1,5 +1,7 @@
 server:
   port: 8086
+  servlet:
+    context-path: /smm
 name:
   O(∩_∩)O哈哈~
 teacher:
@@ -27,4 +29,4 @@ person:
 #  email: 12580
   userName: 好孩子
   age: 3
-  email: 12580
+  email: 12580@qq.com

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ee7c5dd-660a-4146-a375-3ebf82ac5435" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SpringBoot01/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter-autoconfigure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter-autoconfigure/src/main/java/com/llz/autoconfigure/MyAutoConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter-autoconfigure/src/main/java/com/llz/prop/HelloProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter-autoconfigure/src/main/java/com/llz/registry/MyBeanDefinitionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter-autoconfigure/src/main/java/com/llz/selector/MyImportSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter-autoconfigure/src/main/java/com/llz/service/ADirectImport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter-autoconfigure/src/main/java/com/llz/service/BImportSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter-autoconfigure/src/main/java/com/llz/service/CBeanRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter-autoconfigure/src/main/java/com/llz/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter/src/main/java/com/llz/app/SpringBootMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llz-spring-boot-starter/src/test/java/com/llz/app/MySpringBootTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot01/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\zhucm\apache-maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../zhucm/apache-maven" />
+        <option name="userSettingsFile" value="F:\zhucm\apache-maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VKEN2Xe7yQvtDcHznZfDqbbJy0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Console"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.kuang.app" />
+      <recent name="com.kuang" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MySpringBootTest">
+    <configuration name="MySpringBootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="llz-spring-boot-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.llz.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.app" />
+      <option name="MAIN_CLASS_NAME" value="com.llz.app.MySpringBootTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySpringBootTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="llz-spring-boot-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.llz.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang.app" />
+      <option name="MAIN_CLASS_NAME" value="com.llz.app.MySpringBootTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MySpringBootTest" />
+        <item itemvalue="JUnit.MySpringBootTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ee7c5dd-660a-4146-a375-3ebf82ac5435" name="Changes" comment="" />
+      <created>1694576328273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694576328273</updated>
+      <workItem from="1694576329435" duration="6862000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
