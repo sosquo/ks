@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://123.60.6.33:3306/ssmbuild?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: llz
+    password: 123456
+debug: true

@@ -2,7 +2,6 @@
   <artifact type="exploded-war" build-on-make="true" name="SpringMVC05:Web exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/SpringMVC05_Web_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="SpringMVC05/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="SpringMVC05" />
@@ -34,6 +33,7 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.9" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="SpringMVC05/web/Web" />
     </root>
   </artifact>
 </component>
