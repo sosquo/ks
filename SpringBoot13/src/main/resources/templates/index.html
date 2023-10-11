@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎使用国际化功能</title>
+</head>
+<body>
+<h1 th:text="#{tip}"></h1>
+<h1 th:text="#{name}"></h1>
+<h1 th:text="#{password}"></h1>
+
+<a th:href="@{/index.html(lo='zh_CN')}">中文</a>
+<a th:href="@{/index.html(lo='en_US')}">English</a>
+</body>
+</html>
